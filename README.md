@@ -1,29 +1,25 @@
 # 🚀 Task API com Docker
 
-API simples desenvolvida para praticar **Docker com aplicação Java (Spring Boot)**.
+API simples em Java (Spring Boot) para prática de Docker.
 
-Este projeto simula uma API de gerenciamento de tarefas e tem como foco principal o processo de **containerização da aplicação**.
-
----
-
-## 🧠 Objetivo
-
-O objetivo deste projeto é:
-
-- Praticar a criação de containers com Docker
-- Entender o processo de build de uma aplicação Java
-- Executar uma API fora do ambiente local (via container)
-- Simular um cenário real de backend
-
----
-
-## 🛠️ Tecnologias utilizadas
-
+## 🛠 Tecnologias
 - Java 17
 - Spring Boot
 - Maven
 - Docker
 
----
+## ▶️ Como rodar
 
-## 📁 Estrutura do projeto
+```bash
+mvn clean package
+docker build -t task-api .
+docker run -p 8080:8080 task-api
+```
+
+## 📌 Objetivo
+
+Praticar containerização de uma aplicação Java e simular um cenário real de backend.
+
+## 🔗 Outros projetos
+
+https://github.com/pauloviola16/
