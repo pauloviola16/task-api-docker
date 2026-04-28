@@ -16,4 +16,4 @@ Praticar e testar conceitos na prática, como:
 ## Observações
 
 Este não é um projeto final, mas sim um ambiente de aprendizado contínuo.
-As implementações podem evoluir ou ser modificadas conforme novos estudos.
+As implementações podem evoluir ou ser modificadas conforme novos estudos
